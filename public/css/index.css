@@ -1,0 +1,65 @@
+blockquote {
+    background: #f9f9f9;
+    border-left: 10px solid #ccc;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+  }
+  blockquote:before {
+    color: #ccc;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+  }
+  blockquote p {
+    display: inline;
+    font-size: 14px;
+  }
+
+  .banner_img{
+      box-shadow: 2px 2px 7px 2px #F3F4F6;
+  }
+
+  .banner_container{
+    padding-top: 40px ;
+  }
+
+ .blog_img > img{
+    height: 200px;
+    object-fit: cover;
+    background-size: contain;
+  }
+  .post_label{
+    color: #ccc;
+    text-align: center;;
+  }
+
+  .post_label_wrapper{
+    padding: 5px;
+    width: 150px;
+    color: #000;
+    background-color:#6C63FF;
+    border-radius: 4px;
+  }
+
+  .created_date{
+   color:#000;
+  }
+
+  .read_more{
+    text-decoration: none;
+  }
+
+  .read_more:hover{
+    text-decoration: underline;
+  }
+
+  .blog_content{
+    background: #f9f9f9;
+  }
+
+
+
+  
