@@ -1,1 +1,1 @@
-#INT221Project
+# A Laravel based blog CMS
